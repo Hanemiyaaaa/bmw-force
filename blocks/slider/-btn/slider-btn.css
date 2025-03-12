@@ -1,0 +1,32 @@
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgb(209, 0, 34);
+  padding: 15px;
+  cursor: pointer;
+  font-size: 36px;
+  background: none;
+  border: none;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.slider-btn:hover {
+  color: rgb(209, 0, 34);
+  transform: translateY(-50%) scale(1.2);
+}
+
+.prev {
+  left: -10px;
+}
+
+.next {
+  right: -10px;
+}
+
+.slide.active .slide-content {
+  opacity: 1;
+  transform: translateX(0);
+}

@@ -1,0 +1,6 @@
+.providing-services__photo {
+    width: 45%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 5%;
+  }

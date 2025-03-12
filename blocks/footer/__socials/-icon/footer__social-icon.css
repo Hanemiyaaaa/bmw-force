@@ -1,0 +1,6 @@
+.footer__social-icon {
+    width: 40px;
+    height: 40px;
+    filter: drop-shadow(0px 0px 5px rgba(255, 0, 0, 0.6));
+    transition: filter 0.3s ease, transform 0.3s ease;
+}

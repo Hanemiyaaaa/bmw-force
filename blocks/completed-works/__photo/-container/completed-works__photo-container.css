@@ -1,0 +1,26 @@
+.completed-works__photo-container:nth-child(1) { grid-column: span 2; grid-row: span 2; }
+.completed-works__photo-container:nth-child(3) { grid-column: span 1; grid-row: span 3; }
+.completed-works__photo-container:nth-child(5) { grid-column: span 2; }
+
+.completed-works__photo-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Увеличение при наведении */
+.completed-works__photo-container:hover .completed-works__photo {
+    transform: scale(1.1);
+    filter: brightness(70%);
+}
+
+/* Анимация появления */
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+.completed-works__photo-container {
+    animation: fadeIn 0.5s ease-in-out;
+}

@@ -1,0 +1,7 @@
+.logo-overlay__image {
+  max-width: 70%;
+  max-height: 70%;
+  object-fit: contain;
+  opacity: 0;
+  transform: translateX(-100%);
+  }

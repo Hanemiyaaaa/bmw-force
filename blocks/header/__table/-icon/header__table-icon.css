@@ -1,0 +1,14 @@
+.header__table-icon {
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+    transition: transform 0.3s ease-out;
+}
+
+.header__table-icon:hover {
+    transform: scale(1.2);
+}
+
+.header__table-icon:hover {
+    filter: brightness(0) saturate(100%) invert(14%) sepia(96%) saturate(7494%) hue-rotate(-2deg) brightness(94%) contrast(112%);
+}

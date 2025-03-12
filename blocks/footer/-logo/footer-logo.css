@@ -1,0 +1,16 @@
+.footer-logo img {
+    width: 300px;
+    animation: fadeIn 1.5s ease-in-out;
+    margin-bottom: 15px;
+    animation: pulse 1.5s infinite alternate;
+    margin-top: 50px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

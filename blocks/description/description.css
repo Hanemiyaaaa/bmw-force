@@ -1,0 +1,18 @@
+.description {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #f3f3f3;
+}
+
+
+.description::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 90%;
+    height: 1px;
+    background-color: #111111;
+    transform: translateX(-50%);
+  }

@@ -1,0 +1,21 @@
+.input-field {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #e8e8e8;
+    font-size: 14px;
+}
+
+.input-field:focus {
+    border-color: red; 
+    background: #fff;  
+    outline: none;
+}
+
+textarea.input-field {
+    height: 150px;
+    resize: none;
+}

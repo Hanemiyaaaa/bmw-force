@@ -1,0 +1,7 @@
+.instructions-container__photo {
+  width: 80px; /* Размер изображения */
+  height: 80px; /* Размер изображения */
+  object-fit: cover;
+  background-color: black; /* Черный фон для картинок */
+  border-radius: 50%; /* Картинки будут круглыми */
+}

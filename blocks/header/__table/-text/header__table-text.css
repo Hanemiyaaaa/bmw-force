@@ -1,0 +1,8 @@
+.header__table-text {
+    display: flex;
+    height: 80px;
+    width: 45%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}

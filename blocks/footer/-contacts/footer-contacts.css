@@ -1,0 +1,39 @@
+.footer-contacts {
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 600px;
+    animation: slideRight 1.2s ease-in-out;
+    animation: slideUp 1s ease-in-out;
+}
+
+.footer-contacts h3 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid red;
+    display: inline-block;
+    padding-bottom: 5px;
+    font-weight: bold;  
+}
+.footer-contacts p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-contacts::after {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #333;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

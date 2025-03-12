@@ -1,0 +1,5 @@
+.header__table-menu {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+}

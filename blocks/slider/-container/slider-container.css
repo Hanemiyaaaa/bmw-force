@@ -1,0 +1,33 @@
+.slider-container {
+  position: relative;
+  width: 90%;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #f3f3f3;
+  border-radius: 10px;
+}
+
+.slider-container::before,
+.slider-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 10%;
+  height: 100%;
+  background: rgba(0,0,0,0);
+  z-index: 999;
+}
+
+.slider-container::before {
+  left: 0;
+}
+
+.slider-container::after {
+  right: 0;
+}
+
+.slider-container::before:hover + .prev,
+.slider-container::after:hover + .next {
+  opacity: 1;
+}

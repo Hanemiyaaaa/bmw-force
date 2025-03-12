@@ -1,0 +1,31 @@
+.footer-contacts-text {
+    max-width: 300px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 0;
+    transform: translateY(15px);
+    animation: fadeInText 1.5s ease-out forwards, textPulse 1.5s infinite alternate;
+}
+
+@keyframes fadeInText {
+    0% {
+        opacity: 0;
+        transform: translateY(15px);
+        letter-spacing: 3px;
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        letter-spacing: 0px;
+    }
+}
+
+@keyframes textPulse {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.02);
+    }
+}

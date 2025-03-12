@@ -1,0 +1,10 @@
+.instructions-container__description-link {
+    text-decoration: none;
+    color: rgb(209, 0, 34);
+    font-weight: bold;
+    transition: font-size 0.2s ease;
+}
+
+.instructions-container__description-link:hover {
+    font-size: 1.1em;
+}

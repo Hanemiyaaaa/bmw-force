@@ -1,0 +1,24 @@
+.about-us__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+    font-family: "Rubick-LightItalic";
+}
+
+.about-us__text h2 {
+    font-size: 36px;
+    margin-bottom: 5px;
+    font-family: "Rubick-LightItalic"
+}
+
+.about-us__text p {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: "Rubick-Italic"
+}

@@ -1,0 +1,17 @@
+.contact-btn {
+    background: black;
+    color: whitesmoke;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background 0.3s ease;
+    animation: pulse 1.5s infinite alternate;
+    margin-top: 100px;
+}
+
+.contact-btn:hover {
+    background: rgb(239, 0, 39);
+    transform: scale(1.1);
+}

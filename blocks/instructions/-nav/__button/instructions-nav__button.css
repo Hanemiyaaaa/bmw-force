@@ -1,0 +1,14 @@
+.instructions-nav__button {
+  padding: 10px 20px;
+  background-color: #111111; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.instructions-nav__button:hover {
+  background-color: rgb(209, 0, 34);
+  transform: scale(1.1);
+}

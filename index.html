@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BMW FORCE - Кодирование, Диагностика автомобилей BMW</title>
+  <script defer src="./scripts/SetTitle/SetTitle.js"></script> 
+  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+</head>
+<body class="page">
+  <div class="logo-overlay">
+      <img src="./images/logo.svg" alt="Логотип BMW-FORCE" class="logo-overlay__image">
+  </div>
+  <header class="header">
+    <div class="header__table">
+      <a href="/" class="header__table-home">
+        <img src="./images/logo.svg" alt="Логотип BMW-FORCE" class="header__table-logo">
+      </a>
+      <nav class="header__table-home header__table-menu" data-text="Услуги">
+        Услуги
+        <ul class="menu">
+          <li><a href="Coding.html">Кодирование скрытых функций</a></li>
+          <li><a href="Diagnostics.html">Диагностика</a></li>
+          <li><a href="Activating-Apple-CarPlay.html">Активация Apple CarPlay</a></li>
+          <li><a href="Activating-MyBMW.html">Активация MYBMW</a></li>
+          <li><a href="Navigation.html">Обновление карт навигации</a></li>
+          <li><a href="Software-BMW.html">Установка ПО для работы с BMW</a></li>
+          <li><a href="Russification-BMW.html">Русификация BMW</a></li>
+        </ul>
+      </nav>      
+      <a href="Contacts.html" class="header__table-home" data-text="Контакты">Контакты</a>
+      <a href="Questions.html" class="header__table-home" data-text="Q&A" onclick="openModal(event)">Задать вопрос</a>
+      <div class="header__contacts">
+        <a href="tel: +79362471171" class="header__table-contacts" data-text="Контакты">
+          <img src="./images/Phone.png" class="header__table-icon" alt="Телефон">
+        </a>
+        <a href="https://t.me/bmwforcemoscow" class="header__table-contacts" data-text="Контакты">
+          <img src="./images/Telegram.svg" class="header__table-icon" alt="Телеграм">
+        </a>
+        <a href="https://wa.me/+79362471171" class="header__table-contacts" data-text="Контакты">
+          <img src="./images/Whatsapp.svg" class="header__table-icon" alt="Ватсапп">
+        </a>
+      </div>
+    </div>
+  </header>
+  <main class="content">
+    <section class="about-us">
+      <img src="./images/about-us.webp" class="about-us__photo" alt="Фото 1">
+      <div class="about-us__text">
+          <h2>BMW FORCE - Кодирование, Диагностика вашего BMW</h2>
+          <p>Активируем скрытые функции в Вашем авто, AppleCarplay, MYBMW, сделаем профильную диагностику удаленно или с выездом по Москве!</p>
+      </div>
+    </section>  
+    <section class="description">
+      <div class="slider-container">
+        <button class="slider-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+        <div class="slider">
+          <div class="slide active">
+            <div class="slide-content">
+              <div class="slide-text">Кодирование скрытых функций</div>
+              <div class="slide-description">Отключение системы START/STOP, Включение M стиля приборной панели, Активация M анимации при запуске авто, Добавление режимов Sport+, Comfort+ и многое другое.</div>
+              <a href="Coding.html" class="slide-button">Подробнее</a>
+            </div>
+            <img src="./images/slider2.jpg" alt="Фото 2">
+          </div>
+          <div class="slide">
+            <div class="slide-content">
+              <div class="slide-text">Диагностика</div>
+              <div class="slide-description">Диагностика BMW через ISTA: анализ ошибок, данные о километраже, температуре узлов, рекомендации по устранению, пропуски зажигания, коррекции АКПП, заряд АКБ, качество топлива, остаток сажевого фильтра и сброс ТО.</div>
+              <a href="Diagnostics.html" class="slide-button">Подробнее</a>
+            </div>
+            <img src="./images/slider3.jpg" alt="Фото 3">
+          </div>
+          <div class="slide">
+            <div class="slide-content">
+              <div class="slide-text">Активация Apple CarPlay</div>
+              <div class="slide-description">Поможем активировать опцию Apple Carplay в вашем автомобиле с мультимедиа ENTRYNAV2, NBT EVO и MGU. Позволит использовать Яндекс Навигатор, Google Maps, Яндекс Музыку и другие приложения с Вашего IPhone в вашем автомобиле.</div>
+              <a href="Activating-Apple-CarPlay.html" class="slide-button">Подробнее</a>
+            </div>
+            <img src="./images/slider.jpg" alt="Фото 4">
+          </div>
+          <div class="slide">
+            <div class="slide-content">
+              <div class="slide-text">Активация MyBMW</div>
+              <div class="slide-description">Активация аккаунта MYBMW, Активация виджета погоды, Активация пробок в штатной навигации и другое.</div>
+              <a href="Activating-MyBMW.html" class="slide-button">Подробнее</a>
+            </div>
+            <img src="./images/slider2.jpg" alt="Фото 5">
+          </div>
+          <div class="slide">
+            <div class="slide-content">
+              <div class="slide-text">Обновление карт навигации</div>
+              <div class="slide-description">Без проблем обновим ваши карты навигации на автомобиле, а также поможем сменить регион карт, язык мультимедиа и приборной панели!</div>
+              <a href="Navigation.html" class="slide-button">Подробнее</a>
+            </div>
+            <img src="./images/slider3.jpg" alt="Фото 6">
+          </div>
+          <div class="slide">
+            <div class="slide-content">
+              <div class="slide-text">Установка ПО для работы с BMW</div>
+              <div class="slide-description">Установим ПО для диагностики и программирования всех автомобилей BMW до 2023 года, а также по запросу клиента программу ESYS для кодирования всех автомобилей с системой NCD 1.0. Также возможно обучение диагностике и кодированию по запросу клиента.</div>
+              <a href="Software-BMW.html" class="slide-button">Подробнее</a>
+            </div>
+            <img src="./images/slider3.jpg" alt="Фото 7">
+          </div>
+          <div class="slide">
+            <div class="slide-content">
+              <div class="slide-text">Русификация BMW</div>
+              <div class="slide-description">Русифицируем ваш автомобиль с различной мультимедиа.</div>
+              <a href="Russification-BMW.html" class="slide-button">Подробнее</a>
+            </div>
+            <img src="./images/slider3.jpg" alt="Фото 8">
+          </div>
+        </div>
+        <button class="slider-btn next" onclick="moveSlide(1)">&#10095;</button>
+      </div>      
+    </section>
+    <section class="providing-services">
+      <div class="providing-services__container">
+        <img src="./images/providing-services.jpg" class="providing-services__photo" alt="Фото 9">
+        <div class="providing-services__text-container">
+          <h3 class="providing-services__text">ВАШ BMW МОЖЕТ ГОРАЗДО БОЛЬШЕ, ЧЕМ ВЫ СЕБЕ ПРЕДСТАВЛЯЕТЕ. РАБОТАЕМ С ВЫЕЗДОМ ПО МОСКВЕ И ОБЛАСТИ, УДАЛЕННО ПО ВСЕЙ ПЛАНЕТЕ</h3>
+          <a class="providing-services__button" href="Requests.html">Оставить заявку</a>
+        </div>
+      </div>
+    </section>
+    <section class="instructions">
+      <div class="instructions-heading">
+        <h3 class="instructions-heading__title">Что делать, если я в другом регионе или стране?</h3>
+        <h4 class="instructions-heading__subtitle">Простая инструкция, как подключить свой автомобиль к нам удаленно:</h4>
+      </div>
+      <div class="instructions-content">
+        <div class="instructions-container">
+          <img src="./images/instructions1.webp" class="instructions-container__photo">
+          <h4 class="instructions-container__title">Какой ноутбук понадобится?</h4>
+          <p class="instructions-container__description">Ноутбук с системой Windows 7/8/10/11, либо Macbook с виртуальной системой Windows.
+            Стабильное интернет соединение (можно раздать с телефона).</p>
+        </div>
+        <div class="instructions-container">
+          <img src="./images/instructions2.webp" class="instructions-container__photo">
+          <h4 class="instructions-container__title">Как подключиться к авто?</h4>
+          <p class="instructions-container__description">Вам понадобится диагностический кабель ENET. <a href="https://www.avito.ru/moskva/zapchasti_i_aksessuary/bmw_kabel_enet_dlya_diagnostiki_i_kodirovaniya_4228619755?utm_campaign=native&utm_medium=item_page_ios&utm_source=soc_sharing_seller" class="instructions-container__description-link" target="_blank">Можно заказать у нас.</a></p>
+        </div>
+      </div>
+      <div class="instructions-content">
+        <div class="instructions-container">
+          <img src="./images/instructions3.webp" class="instructions-container__photo">
+          <h4 class="instructions-container__title">Я подключился, что дальше?</h4>
+          <p class="instructions-container__description">Скачиваете приложение AnyDesk для удаленного подключения к ноутбуку и присылаете нам 10-ти значный код.</p>
+        </div>
+        <div class="instructions-container">
+          <img src="./images/instructions4.webp" class="instructions-container__photo">
+          <h4 class="instructions-container__title">Оказание услуги</h4>
+          <p class="instructions-container__description">Дальше мы подключаемся из любой точки планеты к Вашему автомобилю и качественно делаем свою работу!</p>
+        </div>
+      </div>  
+    </section>
+    <section class="completed-works">
+      <h3 class="completed-works__title">Наши работы</h3>
+      <h4 class="completed-works__subtitle">Перед нашей работой у каждой машины сохраняем заводскую прошивку для возврата в любой момент!</h4>
+      <div class="completed-works__gallery">
+          <a href="./images/completed-works (3).webp" class="completed-works__photo-container">
+              <img src="./images/completed-works (3).webp" class="completed-works__photo">
+          </a>
+          <a href="./images/completed-works (2).webp" class="completed-works__photo-container">
+              <img src="./images/completed-works (2).webp" class="completed-works__photo">
+          </a>
+          <a href="./images/completed-works (1).webp" class="completed-works__photo-container">
+              <img src="./images/completed-works (1).webp" class="completed-works__photo">
+          </a>
+          <a href="./images/completed-works (4).webp" class="completed-works__photo-container">
+              <img src="./images/completed-works (4).webp" class="completed-works__photo">
+          </a>
+          <a href="./images/completed-works (5).webp" class="completed-works__photo-container">
+              <img src="./images/completed-works (5).webp" class="completed-works__photo">
+          </a>
+          <a href="./images/completed-works (6).webp" class="completed-works__photo-container">
+              <img src="./images/completed-works (6).webp" class="completed-works__photo">
+          </a>
+      </div>
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+      <span class="lightbox__close">&times;</span>
+      <img id="lightbox-img" class="lightbox__img">
+    </div>  
+    <section class="Support">
+      <img src="./images/support.png" alt="Support" class="support-img" title="Здесь вы можете задать нам вопрос!" onclick="openModal()">
+      <div class="modal" id="modal" onclick="closeModal(event)">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <span class="close-btn" onclick="closeModal(event)">&times;</span>
+            <h2>Свяжитесь с нами</h2>
+            <input type="text" id="name" class="input-field" placeholder="Имя">
+            <input type="text" id="contact" class="input-field" placeholder="Телефон или Telegram">
+            <span class="error-message" id="error-message"></span>
+            <input type="text" id="vin" class="input-field" placeholder="VIN номер машины">
+            <span class="error-message" id="vin-error-message"></span>
+            <textarea id="description" class="input-field" placeholder="Описание вопроса"></textarea>
+            <button class="submit-btn" onclick="validateForm()">Отправить</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-top">
+            <div class="footer-contacts-text">
+                <p>Работаем каждый день без выходных с 8:00 до 0:00.</p>
+                <p>Ждем вас!</p>
+                <p>Окажем услугу в день обращения!</p>
+            </div>
+            <a href="/" class="footer-logo">
+              <img src="./images/logo.svg" alt="BMW FORCE">
+            </a>
+        </div>
+        <div class="footer-contacts">
+            <h3>Наши контакты</h3>
+            <div class="footer__map">
+                <iframe src="https://yandex.ru/map-widget/v1/?ll=37.769460,55.716296&z=16&pt=37.769460,55.716296,pm2rdl" 
+                    width="100%" height="300" frameborder="0">
+                </iframe>
+            </div>                           
+            <div class="footer__socials">
+                <a href="tel:+79362471171" class="footer__social-link" data-text="Телефон">
+                    <img src="./images/Phone.png" class="footer__social-icon" alt="Телефон">
+                </a>
+                <a href="https://t.me/bmwforcemoscow" class="footer__social-link" data-text="Telegram">
+                    <img src="./images/Telegram.svg" class="footer__social-icon" alt="Телеграм">
+                </a>
+                <a href="https://wa.me/+79362471171" class="footer__social-link" data-text="WhatsApp">
+                    <img src="./images/Whatsapp.svg" class="footer__social-icon" alt="Ватсапп">
+                </a>
+                <a href="mailto:bmwforce@bk.ru" class="footer__social-link" data-text="Email">
+                    <img src="./images/gmail.png" class="footer__social-icon" alt="Почта">
+                </a>
+            </div>
+        </div>
+    </div>
+  </footer>
+  <script defer src="./scripts/logo-overlay/Logo-overlay.js"></script>
+  <script defer src="./scripts/Menu/Menu.js"></script>
+  <script defer src="./scripts/slider/Slider.js"></script>
+  <script defer src="./scripts/lightbox/lightbox.js"></script>
+  <script defer src="./scripts/Support/support.js"></script>
+</body>
+</html>

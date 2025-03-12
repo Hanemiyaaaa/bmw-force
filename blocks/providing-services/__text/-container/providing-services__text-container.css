@@ -1,0 +1,8 @@
+.providing-services__text-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+    height: 80%;
+  }

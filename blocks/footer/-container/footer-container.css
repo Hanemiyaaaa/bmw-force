@@ -1,0 +1,9 @@
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1200px;
+    width: 80%;
+    z-index: 1;
+    position: relative;
+}

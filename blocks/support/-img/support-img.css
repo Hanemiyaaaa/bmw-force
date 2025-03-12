@@ -1,0 +1,16 @@
+.support-img {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.support-img:hover {
+    transform: scale(1.2);
+}
+
+.support-img:hover {
+    filter: brightness(0) saturate(100%) invert(14%) sepia(96%) saturate(7494%) hue-rotate(-2deg) brightness(94%) contrast(112%);
+}
